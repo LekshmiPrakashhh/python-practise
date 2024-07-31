@@ -1,0 +1,6 @@
+string="hello world"
+sub="worldd"
+if sub in string:
+    print("substring found")
+else:
+    print("not found")
