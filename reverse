@@ -1,0 +1,7 @@
+text="hello"
+rev=text[::-1]
+print(f"reverse of text {text} is " ,rev)
+
+text=input(("enter a text"))
+rev=text[::-1]
+print(f"reverse of text {text} is " ,rev)
