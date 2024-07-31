@@ -1,0 +1,15 @@
+def palin(text):
+    return text==text[::-1]
+
+n=input("enter a text")
+if palin(n):
+    print(n,"is palindrome")
+else:
+    print(n,"is not palindrome")
+
+
+text=input("enter a String")
+if(text==text[::-1]):
+    print(text,"is palindrome")
+else:
+    print(text,"is not palindrome")
