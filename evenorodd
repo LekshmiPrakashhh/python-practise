@@ -1,0 +1,9 @@
+def evenorodd(num):
+    return num%2==0
+
+n=int(input("enter a number"))
+if evenorodd(n):
+    print(n,"is even")
+else:
+    print(n,"is odd")
+
