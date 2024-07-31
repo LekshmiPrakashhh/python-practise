@@ -1,0 +1,10 @@
+def countt(text,chara):
+    count=0
+    for c in text:
+        if c==chara:
+            count=count+1
+    return count
+text1=input("enter a text")
+chara1=input("enter character to count")
+result=countt(text1,chara1)
+print(f"occurance of  {chara1} in{text1} is : ",result)
